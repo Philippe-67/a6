@@ -11,5 +11,6 @@ namespace a6.Data
         {
         }
         public DbSet<a6.Models.Voiture> Voiture { get; set; } = default!;
+        public DbSet<a6.Models.Reparation> Reparation { get; set; } = default!;
     }
 }
